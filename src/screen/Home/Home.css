@@ -1,0 +1,74 @@
+.Home{
+    background-color: black;
+    display: flex;
+}
+
+.Home-MeetScreen{
+    position: relative;
+}
+
+.Home-Camera{
+    width: 100%;
+    height:100%;
+    border-color: red;
+    border-style: dotted;
+}
+.Home-Media{
+    top:22%;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+.Home-Header-Panel{
+    position: absolute;
+    width: 20%;
+    height:20%;
+    top:0px;
+    left: 0px;
+}
+.Home-VideoStream{
+    width: 89.6vw;
+    height: 99.6vh;
+    background-color: black;
+}
+
+
+
+
+.Home-Status-Panel{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 5%;
+    right: 45%;
+    padding: 2%;
+   
+}
+
+.Home-Answer-Button{
+    align-items: center;
+    background-clip: padding-box;
+    background-color: green;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin-top: 2%;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+
+}
+

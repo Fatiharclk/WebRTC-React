@@ -1,0 +1,57 @@
+.Users{
+    width: 200px;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    flex-direction: row;
+    background-color: rgb(26, 119, 196);
+}
+
+.User-Title{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 4%;
+    
+}
+.User-Icon{
+    flex:1;
+    margin-left: 4%;
+    margin-top: 2%;
+    cursor: pointer;
+    
+}
+
+
+.List{
+    height: calc(100vh-14px);
+    width: 200px;
+    background-color: rgb(184, 181, 181);
+   
+}
+.List-Title{
+    color: white;
+    padding: 5%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(66, 164, 245);
+   
+}
+.List-Title-Refresh-Icon{
+    cursor: pointer;
+    margin-left: 17%;
+   
+}

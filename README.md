@@ -2,7 +2,7 @@
 
 
 first `yarn` or `npm install`,
-run `node server.js` first then `yarn start`
+run `node server.js` second then `yarn start`
 
 ### `node server.js`
 
@@ -16,3 +16,5 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
+### Remote PC
+`chrome://flags/#unsafely-treat-insecure-origin-as-secure` add local ip adress
